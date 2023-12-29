@@ -63,10 +63,11 @@ img {
 
 /** ---------HEADER-FIXED------------ */
 .fixed-header {
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   background-color: #ffffff;
+  z-index: 1000;
 }
 /** ---------HEADER------------ */
 
@@ -192,8 +193,9 @@ img {
 
 /** ---------SECTION ADVANTAGES------------ */
 
-.advantages {
-  padding: 120px 156px;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .adv-cont {
@@ -231,7 +233,6 @@ img {
 
 .section-team {
   background-color: #f4f4fd;
-  padding: 120px 156px;
 }
 
 .title-team {
@@ -280,10 +281,6 @@ img {
 }
 
 /** ---------SECTION PORTFOLIO------------ */
-
-.section-portfolio {
-  padding: 120px 156px;
-}
 
 .port-list {
   text-align: center;
