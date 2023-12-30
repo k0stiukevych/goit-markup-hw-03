@@ -74,6 +74,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-line {
@@ -85,6 +86,7 @@ img {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo-header {
@@ -95,6 +97,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .second-part-logo-header {
@@ -111,6 +114,7 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-list:hover {
@@ -128,6 +132,7 @@ img {
 .address-option {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .address-link {
