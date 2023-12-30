@@ -304,7 +304,6 @@ img {
 /** ---------SECTION PORTFOLIO------------ */
 
 .port-list {
-  text-align: center;
   width: 360px;
 }
 
@@ -313,7 +312,7 @@ img {
   border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  padding-top: 32px;
+  padding: 32px 16px;
 }
 
 .title-portfolio {
@@ -342,6 +341,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px
 }
 
 .p-portfolio-list {
@@ -349,8 +349,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
-  margin-bottom: 32px;
 }
 
 /** ---------FOOTER------------ */
@@ -363,6 +361,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .second-part-logo-footer {
@@ -381,5 +381,4 @@ img {
   letter-spacing: 0.02em;
   font-size: 16px;
   max-width: 264px;
-  margin-top: 16px;
 }
