@@ -170,10 +170,6 @@ img {
   margin-bottom: 48px;
 }
 
-.hero-page {
-  text-align: center;
-}
-
 .first-button {
   cursor: pointer;
   background-color: #4d5ae5;
@@ -186,6 +182,9 @@ img {
   border-radius: 4px;
   background: var(--IRIS, #4D5AE5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  display: block;
+  margin: 0 auto;
 }
 
 .first-button:hover {
@@ -207,9 +206,16 @@ img {
   width: 1128px;
 }
 
-.title-advantages {
-  margin: 0 auto;
-  margin-bottom: 72px;
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.adv-element-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .title-section-list {
